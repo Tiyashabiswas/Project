@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Linkedin</title>
+
+        <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
+        <link rel="stylesheet" href="style.css" />
+
+
+        <script src="https://kit.fontawesome.com/3055f91a99.js"></script>
+    </head>
+    <body>
+         <header class="navbar">
+        <div class="search">
+            <img src="linkedin.png" alt="LinkedIn Logo">
+            <input type="search" placeholder="🔍 Search">
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="fas fa-home"><br> <span class="header-text">Home</span></a>
+            <a href="#" class="fas fa-user-friends"><br> <span class="header-text">My Network</span></a>
+            <a href="#" class="fas fa-briefcase"><br> <span class="header-text">Jobs</span></a>
+            <a href="#" class="fas fa-envelope-open-text"><br> <span class="header-text">Messaging</span></a>
+            <a href="#" class="fas fa-bell"><br> <span class="header-text">Notifications</span></a>
+            <a href="#" class="fas fa-user-circle"><br> <span class="header-text">Me ▼</span></a>
+            <div class="vertical-line"></div>
+            <a href="#" class="fas fa-th"><br> <span class="header-text">Work ▼</span></a>
+            <a href="#" class="fas fa-globe"><br> <span class="header-text">Post a job</span></a>
+        </nav>
+    </header>
+        
+        <div class="container" style="max-width: 500px;margin: auto;">
+            <div id="main-wrapper">
+                <main id="main-section">
+                    <div id="share-box" style="margin-top: 65px">
+                        <div id="button-box">
+                            <button id="btn-post">
+                                <span class="fas fa-edit"></span>
+                                <span id="btn-text">Start a post</span>
+                            </button>
+                            <button id="btn-picture">
+                                <span class="fas fa-camera"></span>
+                            </button>
+                            <button id="btn-video">
+                                <span class="fas fa-video"></span>
+                            </button>
+                            <button id="btn-document">
+                                <span class="fas fa-file"></span>
+                            </button>
+                        </div>
+                        <div id="link-box">
+                            <a href="#">Write an article</a>
+                            <span>on LinkedIn</span>
+                        </div>
+                    </div>
+                    <div id="feed-sort">
+                        <hr />
+                        <button>
+                            <span>Sort by:</span>
+                            <strong>Top</strong>
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                    </div>
+                    <article>
+                        <div id="post-author">
+                            <a href="#">
+                                <div>
+                                    <img
+                                        src="post.jpg"
+                                        alt=""
+                                    />
+                                    <div>
+                                        <div>
+                                            <strong id="post-author-name"
+                                                >Tiyasha </strong
+                                            >
+                                            <span>
+                                                <span>&nbsp;·&nbsp;</span>
+                                                1st</span
+                                            >
+                                        </div>
+                                        <span>Developer </span>
+                                        <span>1h</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                            </div>
+                        </div>
+                        <div id="post-data">
+                            <p>
+                                This covid period made me realize that <b>Coffee</b> is best match of developer.
+                                Nothing can replace it. It makes me Happy.
+                            </p>
+                            <img src="post.jpg" alt="" />
+                        </div>
+                        <div id="post-interactions">
+                            <div id="interactions-amount">
+                                <span
+                                    id="like-icon"
+                                    class="fas fa-thumbs-up fa-flip-horizontal"
+                                ></span>
+                                <span
+                                    id="heart-icon"
+                                    class="fas fa-heart"
+                                ></span>
+                                <span id="amount-info"
+                                    >15 <span>&nbsp;·&nbsp;</span> 0
+                                    Comments</span
+                                >
+                            </div>
+                            <div id="interactions-btns">
+                                <button>
+                                    <span
+                                        class="far fa-thumbs-up fa-flip-horizontal"
+                                    ></span>
+                                    <span>Like</span>
+                                </button>
+                                <button>
+                                    <span
+                                        class="far fa-comment-dots fa-flip-horizontal"
+                                    ></span>
+                                    <span>Comment</span>
+                                </button>
+                                <button>
+                                    <span class="far fa-share-square"></span>
+                                    <span>Share</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div id="post-author">
+                            <a href="#">
+                                <div>
+                                    <img
+                                        src="post2.jpg"
+                                        alt=""
+                                    />
+                                    <div>
+                                        <div>
+                                            <strong id="post-author-name"
+                                                >Gunjan</strong
+                                            >
+                                            <span>
+                                                <span>&nbsp;·&nbsp;</span>
+                                                2nd</span
+                                            >
+                                        </div>
+                                        <span>Designer</span>
+                                        <span>8h</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                            </div>
+                        </div>
+                        <div id="post-data">
+                            <p>
+                                Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. 
+                            </p>
+                            <p id="post-translation">
+                                <button>See translation</button>
+                            </p>
+                            <img src="post2.jpg" alt="" />
+                        </div>
+                        <div id="post-interactions">
+                            <div id="interactions-amount">
+                                <span
+                                    id="like-icon"
+                                    class="fas fa-thumbs-up fa-flip-horizontal"
+                                ></span>
+                                <span id="amount-info"
+                                    >293 <span>&nbsp;·&nbsp;</span> 1
+                                    Comments</span
+                                >
+                            </div>
+                            <div id="interactions-btns">
+                                <button>
+                                    <span
+                                        class="far fa-thumbs-up fa-flip-horizontal"
+                                    ></span>
+                                    <span>Like</span>
+                                </button>
+                                <button>
+                                    <span
+                                        class="far fa-comment-dots fa-flip-horizontal"
+                                    ></span>
+                                    <span>Comment</span>
+                                </button>
+                                <button>
+                                    <span class="far fa-share-square"></span>
+                                    <span>Share</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    
+    </body>
+</html>
